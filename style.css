@@ -1,0 +1,276 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+header{
+    width:100vw;
+    height:7vh;
+    background-color:white;
+    color:#341933;
+    display:flex;
+    align-items:center;
+    position:relative;
+    flex-wrap:wrap;
+}
+
+header div{
+    width:320px;
+    position:absolute;
+    left:10px;
+}
+
+header div div{
+    width:230px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:nowrap;
+}
+
+header h1{
+    margin-top:10px;
+    color:#341933;
+}
+
+header p{
+    width:300px;
+    margin-top:50px;
+    font-size:20px;
+    color:#341933;
+}
+
+.paw{
+    width:20px;
+    height:20px; 
+    margin-top:10px; 
+}
+
+header nav{
+    position:absolute;
+    right:200px;
+    font-weight:bold;
+}
+
+nav li{
+    transition-duration:1.5s;
+}
+
+nav li:hover{
+    border-bottom:3px solid blue;
+    color:red;
+    transition-duration:1.5s;
+}
+
+nav a{
+    color:red;
+    transition:1s;
+}
+
+nav a:hover{
+    color:blue;
+    transition:1s;
+}
+
+header li{
+    list-style-type:none;
+}
+
+nav ul{
+    display:flex;    
+}
+
+main{
+    text-align:center;
+}
+
+h1{
+    font-size:36px;
+}
+
+h2{
+    font-size:32px;
+    color:white;
+}
+
+h3{
+    font-size:28px;
+    color:#341933;
+    margin:20px 0;
+}
+
+li,
+p{
+    font-size:22px;
+    margin:20px;
+}
+
+a{
+    text-decoration:none;
+}
+
+                /* 1st section */
+.banner{
+    width:100vw;
+    height:80vh;
+    background-image:url("assets/banner-topo.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    position:relative;
+}
+
+.filter{
+    background-color:lightgrey;
+    opacity:85%;
+    position:absolute;
+    top:300px;
+    left:500px;
+    color:#341933;
+    width:50%;
+    height:300px;
+    
+    border-radius:40px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.filter h1{
+    margin-bottom:60px;
+    font-size:50px;
+}
+
+.filter a{
+    font-size:35px;
+    font-weight:900;
+    padding:5px 10px;
+    border-radius:20px;
+    border:3px solid black;
+    background-color:green;
+    color:white;
+    transition:0.5s;
+}
+
+.filter a:hover{
+    font-size:40px;
+    transition:0.5s;
+    background-color:white;
+    padding:5px 10px;
+    border-radius:20px;
+    border:3px solid black;
+    color:blue;
+}
+
+
+                /* 2nd section*/
+.service{
+    margin:0 auto;   
+}
+
+.service div{
+    width:100%;
+    display:flex;
+    gap:10px;
+    font-size:20px;
+    font-weight:900;
+    margin-bottom:20px;
+}
+
+figcaption{
+    font-size:25px;
+}
+
+.images figure{
+    width:20%;
+}
+
+.images img{
+    width:100%;
+}
+
+            /* 3rd section */
+.purple-background{
+    background-color:#341933;
+    height:15vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.link-top a{
+    color:yellow;
+}
+
+.facebook:hover,
+.instagram:hover,
+.whatsapp:hover{
+    opacity:0.5;
+}
+
+.limited-width{
+    width:50%;
+    margin:0 auto;
+}
+
+                /* 4th section */
+.brands{
+   display:flex;
+   flex-direction:column;
+}
+
+.brands img{
+    width:60%;
+}
+
+                /* 5th section */
+.second-banner{
+    width:100vw;
+    height:40vh;
+    background-image:url("assets/cachorro-filhote-na-agua.gif");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+                /* 6th section */
+.contact img{
+    width:30px;
+    margin:15px 0 0 30px;
+}
+
+
+                /* 7th section */
+.map{
+    width:600px;
+    aspect-ratio: 16 / 9;
+}
+
+                /* Footer */
+footer{
+    background-color:#341933;
+    color:white;
+    text-align:center;
+    padding:5px;
+    font-size:22px;
+}
+
+footer span{
+    font-weight:bold;
+}
+
+            /* Whatsapp no canto inferior direito */
+
+.fixed-whats-icon{
+    position:fixed;
+    right:40px;
+    bottom:20px;
+}
